@@ -1,29 +1,28 @@
-<!DOCTYPE html>
+cat > index.html <<'HTML'
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CSS + JavaScript Animation Demo 🎨</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CSS & JS Assignment - wk-7</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bringing Web Pages to Life 🎬</h1>
+  <header>
+    <h1>Bringing Web Pages to Life</h1>
+    <p>Part 1: CSS animations — Part 2: JS functions — Part 3: Integration</p>
+  </header>
 
-  <!-- Part 1: Button with CSS Transition -->
-  <button id="colorBtn">Hover & Click Me</button>
+  <main>
+    <button id="hoverBtn">Hover Me!</button>
 
-  <!-- Part 2 & 3: Animated Box -->
-  <div class="box" id="myBox"></div>
-  <button id="animateBtn">Animate the Box</button>
+    <div id="animatedBox"></div>
+    <button id="animateBtn">Animate the Box</button>
 
-  <!-- Part 3 Bonus: Modal with Animation -->
-  <button id="openModal">Open Modal</button>
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span id="closeModal">&times;</span>
-      <p>Hello! 🎉 This modal slides in with CSS and JavaScript.</p>
-    </div>
-  </div>
+    <div id="functionResult"></div>
+  </main>
 
   <script src="script.js"></script>
 </body>
 </html>
+HTML

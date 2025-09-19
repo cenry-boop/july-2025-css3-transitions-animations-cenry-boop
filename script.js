@@ -29,7 +29,7 @@ function triggerAnimation(elementId, className) {
 
   element.classList.add(className);
   return "Animation triggered!";
-}
+}s
 
 // Button to animate box
 document.getElementById("animateBtn").addEventListener("click", () => {
